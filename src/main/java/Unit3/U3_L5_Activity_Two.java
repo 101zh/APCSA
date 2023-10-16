@@ -11,9 +11,7 @@ public class U3_L5_Activity_Two {
         int a = scan.nextInt();
         int b = scan.nextInt();
 
-        if (b == 0)
-            System.out.println(b + " is not a factor of " + a);
-        else if (a % b == 0)
+        if (b!= 0 && a % b == 0)
             System.out.println(b + " is a factor of " + a);
         else
             System.out.println(b + " is not a factor of " + a);
