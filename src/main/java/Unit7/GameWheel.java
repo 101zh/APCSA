@@ -3,7 +3,6 @@ package Unit7;
 // Have to get rid of package statement
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class GameWheel {
   private ArrayList<Slice> slices; // List of slices making up the wheel
