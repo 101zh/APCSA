@@ -75,6 +75,7 @@ public class Battleship {
             } else if (ans.toLowerCase().equals("b"))
                 System.out.println("\n" + b + "\n");
         }
+        scan.close();
         System.out.println("Game over!");
     }
 }
