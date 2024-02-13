@@ -19,8 +19,22 @@ public class SpecialityCoffee extends Coffee {
         this.flavor = flavor;
     }
 
+    @Override
     public String toString() {
         return super.toString() + " with " + flavor;
+    }
+
+    @Override
+    public int getPrice() {
+        int price = super.getPrice();
+
+        if (this.getSize().equals("extra large") || this.getSize().equals("large")) {
+            price += 50;
+        } else {
+            price += 30;
+        }
+
+        return price;
     }
 
 }
