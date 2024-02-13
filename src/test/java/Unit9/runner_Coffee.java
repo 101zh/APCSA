@@ -37,5 +37,6 @@ public class runner_Coffee {
         if (c != null) {
             System.out.println(c);
         }
+        scan.close();
     }
 }
