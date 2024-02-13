@@ -7,12 +7,11 @@ public class SpecialityCoffee extends Coffee {
 
     public SpecialityCoffee() {
         super();
-        flavor = "vanilla";
+        this.flavor = "vanilla";
     }
 
     public SpecialityCoffee(String size, String type, String flavor) {
-        super(size, false, 1, type);
-        this.flavor = flavor;
+        this(size, false, 1, type, flavor);
     }
 
     public SpecialityCoffee(String size, boolean isSkinny, int shots, String type, String flavor) {
